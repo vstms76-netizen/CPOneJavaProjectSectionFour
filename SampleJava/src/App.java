@@ -43,13 +43,14 @@ public class App {
         }
         
         return false;
-    }/*  */
+    }  */ 
 
     //input 5 names on the list, then remove one man
     public static void main(String[] args)
     {
         List<String> names = new ArrayList<>();
         Scanner scan = new Scanner(System.in);
+        
         
         String name = "";
         while (names.size() < 5 ){
