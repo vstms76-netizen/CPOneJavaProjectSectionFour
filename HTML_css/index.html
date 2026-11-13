@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <titel>My Website</titel>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <div class="card">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zandro's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Zandro</h1>
 
-        <h1>Welcome to My Website</h1>
-        <p>Im Zandro, an aspiring game developer.</p>
-        <p>Im learning HTML and CSS for my finals..</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
 
+    <section class="card hero" id="about">
+        <p class="eyebrow">ASPIRING GAME DEVELOPER</p>
+
+        <h1>Hi, Im <span>Zandro.</span></h1>
+
+        <p class="hero-description">
+            Im learning to turn indeas into playable experiences
+            through code, creativity, and game development.
+        </p>
+
+        <div class="links">
+            <a class="button" href="#projects">Explore My Projects</a>
+        </div>
+        </section>
+
+</body>
+<section class="card" id="projects">
+    <h2>My Projects</h2>
+    
+    <div class="project-grid">
+        <article class="project">
+            <h3>Personal Portfolio</h3>
+            <p>A website introducing myself and my work.</p>
+            <p>Tools: HTML and CSS</p>
+        </article>
+
+        <article class="project">
+            <h3>Godot Practice</h3>
+            <p>Learning game development through small experiments.</p>
+            <p>Tools: Godot and C#</p>
+        </article>
     </div>
+</section>
 </html>
