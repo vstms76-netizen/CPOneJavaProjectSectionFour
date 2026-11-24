@@ -5,6 +5,41 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "NumberCounter",
+            "request": "launch",
+            "mainClass": "NumberCounter",
+            "projectName": "CPOneJavaProjectSectionFour_9ee11e1f"
+        },
+        {
+            "type": "java",
+            "name": "NumberAnalyzer",
+            "request": "launch",
+            "mainClass": "NumberAnalyzer",
+            "projectName": "CPOneJavaProjectSectionFour_9ee11e1f"
+        },
+        {
+            "type": "java",
+            "name": "SimpleMenuCalculator",
+            "request": "launch",
+            "mainClass": "SimpleMenuCalculator",
+            "projectName": "CPOneJavaProjectSectionFour_9ee11e1f"
+        },
+        {
+            "type": "java",
+            "name": "StudentGradeEvaluator",
+            "request": "launch",
+            "mainClass": "StudentGradeEvaluator",
+            "projectName": "CPOneJavaProjectSectionFour_9ee11e1f"
+        },
+        {
+            "type": "java",
+            "name": "AdmissionChecker",
+            "request": "launch",
+            "mainClass": "AdmissionChecker",
+            "projectName": "CPOneJavaProjectSectionFour_9ee11e1f"
+        },
+        {
             "type": "msedge",
             "request": "launch",
             "name": "Open index.html",
